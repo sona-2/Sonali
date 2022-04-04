@@ -1,0 +1,15 @@
+
+ table{
+     border: solid yellow;
+ }
+ @media only screen and (min-width:600px){
+     #temp1{
+         border: solid blue;
+     }
+     .temp1{
+         border: solid greenyellow;
+     }
+     table{
+         border: solid yellow !important;
+     }
+ }
